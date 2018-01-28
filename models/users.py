@@ -3,7 +3,7 @@
 # author: Roman B.
 
 from sqlalchemy import Table, Column, Integer, String, MetaData
-from .main import engine
+from models.main import engine
 
 metadata = MetaData()
 users_table = Table('lots', metadata,

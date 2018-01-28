@@ -6,3 +6,4 @@ from sqlalchemy import create_engine
 from config import *
 
 engine = create_engine('postgresql://%s:%s@%s/%s' % (USERNAME, PASSWORD, URI, DATATABLE))
+

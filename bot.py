@@ -38,16 +38,12 @@ async def srd(*args):
 @trade_bot.group(pass_context=True)
 async def roll(ctx, *args: str):
     member = ctx.message.author
-    if ctx.invoked_subcommand is None:
-        ctx = ('{0.subcommand_passed}'.format(ctx))
     await trade_bot.say('{}: {}'.format(member.mention, 'здесь был раньше roll'))
 
 
 @trade_bot.group(pass_context=True)
 async def r(ctx, *args: str):
     member = ctx.message.author
-    if ctx.invoked_subcommand is None:
-        ctx = ('{0.subcommand_passed}'.format(ctx))
     await trade_bot.say('{}: {}'.format(member.mention, 'а здесь  было еще кто то, тот же ролл но через r'))
 
 

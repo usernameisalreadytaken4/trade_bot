@@ -1,7 +1,0 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# author: Roman B.
-
-CLIENT_ID = 407189564504014848
-CLIENT_SECRET = "2bhwz_ZtnI1kXN2A5ZO-Zez-YC-h_VhL"
-BOT_TOKEN = "NDA3MTg5NTY0NTA0MDE0ODQ4.DU94ag.tIBbmXCRBdP2vc7TzYPST8GViiU"

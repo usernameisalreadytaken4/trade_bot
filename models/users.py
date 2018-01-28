@@ -35,4 +35,4 @@ class TradeLots(model):
     time_created = Column(DateTime, default=datetime.now())
 
 if __name__ == '__main__':
-    print('окей')
+    model.prepare(engine)
